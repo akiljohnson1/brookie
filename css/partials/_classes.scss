@@ -1,0 +1,20 @@
+.centered-child {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// .container {
+// 	max-width:$site-width;
+// 	// @extend .centered-child;
+// 	@include centered-child;
+// }
+
+
+.well  {
+	@include clearfix;
+	background-color:#ddd;
+	border-radius:$size-sm;
+	padding:$size-md;
+	// margin:$size-sm;
+	min-height:30vh;
+}
